@@ -37,11 +37,11 @@ app.post("/jokes", (req, res) => {
     jokeType: req.body.type,
   };
   jokes.push(newJoke);
-  // console.log(jokes.slice(-1));
+  console.log(jokes.slice(-1));
   res.json(newJoke);
 })
 
-//5. PUT a joke
+//5. PUT a joke(put is for replacement)
 
 //6. PATCH a joke
 
